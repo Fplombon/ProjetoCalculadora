@@ -130,11 +130,8 @@ class CalcController {
             case '8':
             case '9':
                 this.addOperation(parseInt(value));
-                break;
-                
+                break;            
             
-            
-
             default:
                 this.setError();
                 break;    
